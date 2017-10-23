@@ -1,0 +1,20 @@
+#container {
+	width: 98%;
+    font-size: 0px;
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
+    background-color: #f7f7f7;
+    overflow: hidden;
+}
+
+.imageHolder {
+	width: 200px;
+	height: 200px;
+	background-image: url("../images/200X200.png");
+	display: inline-block;
+}
+
+#container .imageHolder {
+	margin-bottom: 10px;
+}
