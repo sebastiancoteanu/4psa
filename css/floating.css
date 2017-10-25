@@ -2,8 +2,11 @@
 	width: 98%;
     font-size: 0px;
     padding: 10px;
-    box-sizing: border-box;
-    position: relative;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
     background-color: #f7f7f7;
     overflow: hidden;
 }
@@ -11,9 +14,22 @@
 .imageHolder {
 	width: 200px;
 	height: 200px;
+	padding: 5px;
+	margin: 10px 5px 0px 5px;
 	background-image: url("../images/200X200.png");
 	display: inline-block;
 }
+
+.after {
+	width: 200px;
+	height: 200px;
+	padding: 5px;
+	margin-top: 10px 5px 0px 5px;
+	opacity: 0;
+	visibility: hidden;
+	display: inline-block;
+}
+
 
 #container .imageHolder {
 	margin-bottom: 10px;
