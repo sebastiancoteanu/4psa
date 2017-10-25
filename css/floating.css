@@ -24,12 +24,11 @@
 	width: 200px;
 	height: 200px;
 	padding: 5px;
-	margin-top: 10px 5px 0px 5px;
+	margin: 10px 5px 0px 5px;
 	opacity: 0;
 	visibility: hidden;
 	display: inline-block;
 }
-
 
 #container .imageHolder {
 	margin-bottom: 10px;
